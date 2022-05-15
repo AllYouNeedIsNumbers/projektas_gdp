@@ -1,0 +1,11 @@
+.idea/
+.ipynb_checkpoints/
+Lib/
+Scripts/
+data/
+etc/
+graphs/
+xgboost/
+share/
+pyvenv.cfg
+__pycache__/
