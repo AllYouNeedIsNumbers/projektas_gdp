@@ -4,18 +4,18 @@ Using World Economic Outlook Database data create a model that would predict a c
 
 ## Data, metrics, model results and model selection
 
-###Data:
+### Data:
 * European Union countries (EU)
 * NATO countries (NATO)
 
-###Metrics:
+### Metrics:
 * General government revenue | Percent of GDP
 * General government total expenditure | National currency | Billions
 * Gross national savings | Percent of GDP
 * Total investment | Percent of GDP
 * Unemployment rate | Percent of total labor force
 
-###Model results:
+### Model results:
 * EU countries results without outliers:
 
 |Model                      | MSE      | MAPE  |
@@ -33,14 +33,14 @@ Using World Economic Outlook Database data create a model that would predict a c
 | Linear Regression         | 14311.165| 0.751 |
 
 
-###Model selection:
+### Model selection:
 Selected model: **XGBoost with GridSearchCV**
 
 Selected dataset: **NATO countries results without outliers**
 
 Final metrics: **MSE** 5093.802, **MAPE** 0.171
 
-##Instructions to run the API server:
+## Instructions to run the API server:
 1. Clone the project from github
 2. Run the 'requirements.txt' file to install libraries
 3. Run the 'model.py'
@@ -49,7 +49,7 @@ Final metrics: **MSE** 5093.802, **MAPE** 0.171
 
 **To review the full project run "Project.ipynb"**
 
-##Project comments, results and conclusions
+## Project comments, results and conclusions
 * Completed a data analysis on the World Economic Outlook Database data containing 196 countries macroeconomic metrics. Data is available from 1980 to the present however there were many null values before the 2000s
 so the model used data from 2000 until 2019. Also, for a more accurate  GDP per capita prediction the model used only NATO countries without Luxembourg (outlier in the model)
 * The best performing model was **XGBoost model with NATO data** which was using 19 metrics to predict GDP per capita:
