@@ -3,15 +3,18 @@
 Using World Economic Outlook Database data create a model that would predict a country’s GDP per capita from 5 main metrics
 
 ## Data, metrics, model results and model selection
+
 ###Data:
 * European Union countries (EU)
 * NATO countries (NATO)
+
 ###Metrics:
 * General government revenue | Percent of GDP
 * General government total expenditure | National currency | Billions
 * Gross national savings | Percent of GDP
 * Total investment | Percent of GDP
 * Unemployment rate | Percent of total labor force
+
 ###Model results:
 * EU countries results without outliers:
 
