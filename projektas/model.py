@@ -4,7 +4,7 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 import pickle
 
 # Load data from csv
-df = pd.read_csv('../data/df_nato_final.csv')
+df = pd.read_csv('data/df_nato_final.csv')
 print(df.head())
 print(df.columns)
 
